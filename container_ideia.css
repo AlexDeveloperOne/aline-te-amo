@@ -75,7 +75,9 @@
     color: rgb(173, 173, 191);
     margin: 11px;
     /*background: url('./assets/back.jpg') no-repeat center/cover;*/
-    background: url('./assets/aline.png') no-repeat center/cover;
+    background: url('./assets/aline.png');
+    background-size: auto;
+    background-position: center;
     
 }
 .title__page img { /*VER DEPOIS PARA RESPONSIVIDADE!*/
