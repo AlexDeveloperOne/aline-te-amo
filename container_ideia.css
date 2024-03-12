@@ -15,12 +15,14 @@
         width: auto; /* ou defina outro valor adequado para telas menores */
     }
     .title__page h1 {
-        text-decoration: double;
+        text-decoration: dashed;
         text-align: center;
         font-size: 20px;
-        color: rgb(85, 32, 158);
-        margin: 11px;
-        text-decoration-line: underline;
+        text-transform: inherit;
+        color: rgb(31, 3, 69);
+        margin: 5px;
+        
+        background-color: rgba(215, 160, 160, 0.265);
     }
     /*
     .title__page img { ver depois
@@ -70,8 +72,11 @@
     text-decoration: double;
     text-align: center;
     font-size: 22px;
-    color: blue;
+    color: rgb(173, 173, 191);
     margin: 11px;
+    /*background: url('./assets/back.jpg') no-repeat center/cover;*/
+    background: url('./assets/aline.png') no-repeat center/cover;
+    
 }
 .title__page img { /*VER DEPOIS PARA RESPONSIVIDADE!*/
     animation: animacao-imagem 3s infinite; 
@@ -87,6 +92,6 @@
 .title__page img,
 .title__page h1 {
     display: inline; /* Coloca as imagens e o parágrafo em linha */
-    vertical-align: middle; /* Alinha verticalmente ao centro */
-    margin: 0 5px; /* Adiciona margem horizontal entre os elementos */
+    vertical-align: baseline; /* Alinha verticalmente ao centro */
+    margin: 50px 1px; /* Adiciona margem horizontal entre os elementos */
 }
