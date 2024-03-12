@@ -17,7 +17,7 @@
     .title__page h1 {
         text-decoration: double;
         text-align: center;
-        font-size: 22px;
+        font-size: 20px;
         color: rgb(0, 42, 255);
         margin: 11px;
     }
@@ -50,7 +50,8 @@
     margin: 12px 0px 12px 12px;
     text-decoration: double !important;
     background-color: transparent;
-    width: max-content;
+    width: 99%;
+    max-width: 99%;
     color: rgb(80, 0, 0);
 }
 
