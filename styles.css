@@ -58,3 +58,10 @@ table {
     border-spacing: 0;
 }
 /** RESET - FIM **/
+footer {
+    margin-top: 150px;
+    background-color: #333; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+}

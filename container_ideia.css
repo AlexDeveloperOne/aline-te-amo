@@ -69,6 +69,7 @@
 }
 /***/
 .title__page  {
+    height: 10rem;
     text-decoration: double;
     text-align: center;
     font-size: 22px;
@@ -78,11 +79,12 @@
     background: url('./assets/aline.png');
     background-size: auto;
     background-position: center;
+    background-repeat: no-repeat;
     
 }
 .title__page img { /*VER DEPOIS PARA RESPONSIVIDADE!*/
     animation: animacao-imagem 3s infinite; 
-    width: 22px;
+    width: 25px;
     height: 100px;
     background-color: none;
     
@@ -90,10 +92,31 @@
     max-width: 100%;
     height: auto;
 }
+.title__page h1 {
+    animation: fadein 5s ease-in forwards;
+}
 
 .title__page img,
 .title__page h1 {
     display: inline; /* Coloca as imagens e o parágrafo em linha */
     vertical-align: baseline; /* Alinha verticalmente ao centro */
-    margin: 50px 1px; /* Adiciona margem horizontal entre os elementos */
+    margin-top: 65px; /* Adiciona margem horizontal entre os elementos */
+    margin-bottom: 70px; /* Adiciona margem horizontal entre os elementos */
+    /*margin: 70px 1px; /* Adiciona margem horizontal entre os elementos */
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadein 3s ease-in forwards;
+    margin: 20px;
+    max-width: 100%;
 }
