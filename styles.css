@@ -63,12 +63,18 @@ table {
 
 .page-construction {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     text-align: center;
-    max-width: 80%;
+    max-width: 100%;
     
     
-    margin-top: 60px;
+    margin-top: 30px;
     margin-left: 80px;
+    text-decoration: dotted;
+    text-decoration-line: overline;
+    /*
+    */
     
     font-size: 19px;
     color: rgb(201, 188, 16);

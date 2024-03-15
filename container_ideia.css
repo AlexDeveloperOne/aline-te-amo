@@ -1,8 +1,9 @@
 .container__ideas {
     margin: 10px auto;
     background-color: rgb(169, 97, 196);
-    border: 7px solid rgb(104, 57, 142);
-    padding: 7px;
+    border: 5px solid rgb(104, 57, 142);
+    padding: 3px;
+    border-radius: 5px;
     width: 70rem;
     /*
     background-color: #cb92c8;

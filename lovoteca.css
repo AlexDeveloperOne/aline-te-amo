@@ -114,6 +114,7 @@
     align-items: center;
     margin: 0 auto;
     margin-bottom: 20px;
+    
     /*
     border: 1px solid salmon;
     */
@@ -139,14 +140,14 @@
 .audio__container > audio {
     width: 50%;
     margin-top: 5px;
-    /*
     margin-bottom: 1px;
     border-radius: 5px;
-     background-color: transparent;
+    /*
+    background-color: transparent;
      */
 }
 
-.lovoteca__container>.audio__container>p {
+.lovoteca__container > .audio__container > p {
     font-style: oblique;
     font-weight: bold;
     color: #542851;
@@ -158,7 +159,7 @@
     font-size: xx-large;*/
 }
 
-.lovoteca__container>.audio__container audio::-webkit-media-controls-panel {
+.lovoteca__container > .audio__container > audio::-webkit-media-controls-panel {
     background-color: #cb92c8;
     border-radius: 5px;
 }
