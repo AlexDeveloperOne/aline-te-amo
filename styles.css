@@ -57,35 +57,64 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
 /** RESET - FIM **/
 
+body{
+    margin: 0 auto;
+    max-width: 99.5%;
+}
 
 
 .page-construction {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    max-width: 100%;
-    
-    
-    margin-top: 30px;
-    margin-left: 80px;
-    text-decoration: dotted;
-    text-decoration-line: overline;
-    /*
-    */
-    
+
     font-size: 19px;
     color: rgb(201, 188, 16);
+    font-weight: bold;
+    text-align: center;
+    /* Para alinhar os elementos ao centro */
+    position: relative;
+    /* Necessário para alinhar o texto ao fundo */
+    border: 2px solid rgb(253, 0, 0);
+    
+    max-width: 95%;
+    height: 5vw;
+    display: flex;
+    /* Adicionando para alinhar os itens horizontalmente */
+    justify-content: center;
+    /* Adicionando para alinhar os itens horizontalmente */
+    align-items: center;
+    /* Para alinhar o texto ao fundo */
+    
+    background-color: azure;
+    margin: 0 auto;
+
 }
 
 
 
 footer {
-    margin-top: 10px;
-    background-color: #333; /* Cor de fundo */
-    color: #fff; /* Cor do texto */
-    padding: 20px; /* Espaçamento interno */
-    text-align: center; /* Alinhamento do texto */
+    /* margin-top: 10px; */
+    background-color: #333;
+    /* Cor de fundo */
+    color: #fff;
+    /* Cor do texto */
+    padding: 10px;
+    /* Espaçamento interno */
+    text-align: center;
+    /* Alinhamento do texto */
+    max-width: 100%;
 }
+
+@font-face {
+    font-family: 'Monte-carlo';
+    src: url('./assets/MonteCarlo/MonteCarlo-Regular.ttf') format('truetype');
+}
+
+.carousel-perso {
+    max-width: 400px; /* Defina a largura desejada */
+    min-height: 150px; /* Defina a altura desejada */
+    font-size: 20px;
+}
+
+/* Carousel elogios */
