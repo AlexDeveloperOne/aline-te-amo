@@ -57,16 +57,18 @@
 
 .title__page h1 {
     animation: fadeInOut 8s infinite; /* Executa a animação em loop */
-    font-size: 45px;
+    font-size: 40px;
     font-family: 'Monte-carlo', sans-serif;
     
     color: rgb(31, 3, 69);
     background-color: rgba(215, 160, 160, 0.265);
+    background: linear-gradient(to bottom, #090a0a22 0%, #bea2e7ad 25%, #bea2e7d3 50%, #bea2e729 75%, #322b3dd3 100%);
     
     position: absolute; /* Para posicionar o texto */
     bottom: 0; /* Alinha o texto ao fundo */
     left: 50%; /* Centraliza o texto horizontalmente */
     transform: translateX(-50%); /* Corrige a centralização */
+    width: 100%;
     max-width: 100%;
     
 }

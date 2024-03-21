@@ -118,3 +118,8 @@ footer {
 }
 
 /* Carousel elogios */
+
+/* Botão som */
+#toggleSoundButton.clicked img {
+    filter: invert(40%);
+}
