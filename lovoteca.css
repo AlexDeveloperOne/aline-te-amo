@@ -79,7 +79,7 @@
         margin: 0 10px;
         text-align: center;
         font-weight: bold;
-        font-size: 30px;
+        font-size: 40px;
         color: rgb(49, 49, 159);
         letter-spacing: 0.1rem;
     }
@@ -108,7 +108,7 @@
 
 
 .lovoteca__container>.audio__container {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -160,7 +160,7 @@
 }
 
 .lovoteca__container > .audio__container > audio::-webkit-media-controls-panel {
-    background-color: #cb92c8;
+    background-color: #cb9292;
     border-radius: 5px;
 }
 

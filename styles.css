@@ -108,7 +108,8 @@ footer {
 
 @font-face {
     font-family: 'Monte-carlo';
-    src: url('./assets/MonteCarlo/MonteCarlo-Regular.ttf') format('truetype');
+    src: url('./assets/fonts/MonteCarlo-Regular.ttf') format('truetype');
+    /* src: url('./assets/MonteCarlo/MonteCarlo-Regular.ttf') format('truetype'); */
 }
 
 .carousel-perso {
