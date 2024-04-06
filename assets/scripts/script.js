@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", function() {
   var sound = new Howl({
-      src: ['./assets/songs/fundo/All My Life - Brian Nhira (K-Ci & JOJO)   The Sessions EP Pt. II.mp3'],
+      src: ['./assets/songs/fundo/It Must Have Been Love (acoustic cover) - Amber Leigh Irish (Official audio art).mp3'],
       autoplay: true,
       loop: true,
       volume: 0.5,
