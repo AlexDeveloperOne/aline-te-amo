@@ -1,5 +1,5 @@
 
-
+//som da pagina
 document.addEventListener("DOMContentLoaded", function() {
   var sound = new Howl({
       src: ['./assets/songs/fundo/It Must Have Been Love (acoustic cover) - Amber Leigh Irish (Official audio art).mp3'],
@@ -60,18 +60,19 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 // section lembra-você
-    function videoslider(videoId) {
-      document.getElementById("video-player").innerHTML =
-        '<iframe width="560" height="315" src="https://www.youtube.com/embed/' +
-        videoId +
-        '?showinfo=0" controls: "0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
-    }
+function videoslider(videoId) {
+  document.getElementById("video-player").innerHTML =
+  '<iframe width="560" height="315" src="https://www.youtube.com/embed/' +
+  videoId +
+  '?showinfo=0" controls: "0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+}
 
-    window.onload = function () {
-      videoslider("_-iYjarPmF0");
-    };
+window.onload = function () {
+  videoslider("_-iYjarPmF0");
+};
 
-    
+
+// Carroussel de Elogios do Título
   const array = [
     "Minha linda!",
     "Minha Querida!",
